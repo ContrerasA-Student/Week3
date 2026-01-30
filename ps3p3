@@ -1,0 +1,9 @@
+#ps3p3 ARMANDO CONTRERAS 1/29/2026
+#input phase
+Recievedamount = float(input("Enter Amount Received: "))
+
+#processing phase
+Evenlyrecievedamount = Recievedamount / 3
+
+#output phase
+print("Recieved Amount for Each: ", Evenlyrecievedamount)
