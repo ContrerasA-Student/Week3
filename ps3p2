@@ -1,0 +1,12 @@
+#ps3p2 ARMANDO CONTRERAS 1/29/2026
+#input phase
+lname = input("Enter Student Last Name: ")
+midterm = float(input("Enter Midterm Score: "))
+final = float(input("Enter Final Score: "))
+
+#process phase
+total = midterm + final
+
+#output phase
+print("Student: ",lname)
+print("Total points earned: ",total) 
