@@ -1,0 +1,19 @@
+#ps3p4 ARMANDO CONTRERAS 1/29/2026
+#input phase
+Make = input("Make of the car: ")
+Model = input("Model of the car: ")
+MSRP = float(input("MSRP of the car: "))
+DiscountPercent = float(input("Discount Percent: "))
+
+#process phase
+AmountOff = MSRP * DiscountPercent 
+DiscountedPrice = MSRP - AmountOff
+
+#output phase
+print("Make of the car: ", Make)
+print("Model of the car: ", Model)
+print("MSRP of the car:", MSRP)
+print("DiscountPercent: ", DiscountPercent)
+print("Amount Discounted: ", AmountOff)
+print("Final Discounted Price: ",DiscountedPrice)
+print("Thank you for shopping with us!")
