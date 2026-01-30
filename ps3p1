@@ -1,0 +1,11 @@
+#ps3p1 ARMANDO CONTRERAS 1/29/2026
+#input phase
+Stocktickersymbol = input("Enter Stock Ticker Symbol: ")
+Numberofshares = float(input("Enter Number of Shares: ") )
+Costpershare = float(input("Enter Cost per Share: ") )
+
+#process phase 
+AmountInvested = Numberofshares * Costpershare
+
+#output phase
+print("Amount Invested: ", AmountInvested)
